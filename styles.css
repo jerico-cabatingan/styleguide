@@ -1,0 +1,160 @@
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'IBM Plex Sans Hebrew', sans-serif; 
+  background-color: #e1ecff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  border: 3px solid #4a5864;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  background-color: #006385;
+  padding: 10px;
+  position: relative;
+  bottom: 25px;
+  border-radius: 5px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  border-bottom: #b5b5b5 solid 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-bottom: #b5b5b5 solid 3px;
+  padding-bottom: 10px;
+}
+
+.box p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+section {
+  background-color: white;
+  border-radius: 5px;
+  width: 97%;
+  max-width: 1200px;
+  margin: 5px 5px;
+  box-shadow: 3px 3px 3px 3px #b5b5b5;
+}
+
+.box {
+  display: inline-block;
+  padding: 5px 30px;
+  margin: 20px 0px;
+  text-align: center;
+  flex: 1 1 200px;
+}
+
+.box div {
+  margin: 0 auto;
+}
+
+.usecase {
+  text-align: left;
+  font-size: 10px;
+}
+
+#wrapper {
+  display: flex;
+  flex: wrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  }
+
+#tropical-blue {
+  background-color: #008ab8;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#marine-blue {
+  background-color: #006385;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#vanta-black {
+  background-color: #000000;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#senior-grey {
+  background-color: #b5b5b5;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#pastel-blue {
+  background-color: #e1ecff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.fonts div { 
+  display: flex;
+  flex-direction: column;
+  margin: 50px 30px;
+  padding: 50px 30px;
+}
+
+.titillium {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 25px;
+}
+
+.ibm {
+  font-family: 'IBM Plex Sans Hebrew', sans-serif;
+  font-size: 25px;
+}
+
+.open {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.rulewrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100%;
+}
+
+.rules {
+  display: inline-block;
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'IBM Plex Sans Hebrew', sans-serif;
+}
